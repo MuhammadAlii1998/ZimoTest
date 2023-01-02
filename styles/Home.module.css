@@ -1,0 +1,161 @@
+.container {
+  min-height: 95vh;
+  padding: 0 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-size: 3.6rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.zimoCard{
+  border-radius: 20px;
+  background-color: white !important;
+  height: 500px;
+  width: 450px;
+  position: relative;
+}
+.zimoSlider{
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  position: absolute;
+}
+.zimoPercentageBar{
+  position: absolute;
+  bottom: 80px;
+  left : 10px;
+  height: 80px;
+  width: 75px;
+  z-index: 10;
+}
+.zimoTimer{
+  position: absolute;
+  left : 0px;
+  height: 50px;
+  column-gap: 40px;
+  top: 30px;
+  color: white;
+  text-shadow:  3px 3px 0 #000,
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+   1px 1px 0 #000;
+  ;
+  font-size: xx-large;
+  font-family:Arial, Helvetica, sans-serif;
+  z-index : 10;
+  background: transparent;
+  columns: 4;
+  flex-direction: row;
+  flex: auto;
+}
+.zimoBottomBar{
+  position: absolute;
+  bottom: 0px;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  background-color: black !important;
+  height: 35px;
+  width : 430px;
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index : 10;
+  color: white;
+  padding-left: 20px;
+  padding-top: 15px;
+  display: inline-block;
+}
+.zimoBuy{
+  margin-left: 40%;
+}
+
+.zimoLogo{
+  position: absolute;
+  height: 40px;
+  width: 110px;
+  right: 35px;
+  bottom: 100px;
+}
+
